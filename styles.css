@@ -1,0 +1,73 @@
+/* Set a consistent font color and background color for the entire page */
+body {
+    background-color: #c8dde3;
+    color: #0d0d0d;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the heading for better contrast and readability */
+h1 {
+    color: #0d0d0d;
+    background-color: #c8dde3;
+    padding: 10px;
+    margin: 0;
+}
+
+/* Style links and hover effects in the navigation */
+nav {
+    background-color: #8aa693;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: #385448;
+    text-decoration: none;
+    padding: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #c99ad9;
+    color: #385448;
+}
+
+/* Style the quote for better alignment */
+.quote {
+    float: right;
+    margin-top: 10px;
+}
+
+/* Apply consistent styling to paragraphs */
+.p {
+    background-color: #c99ad9;
+    padding: 20px;
+    border: 2px solid #0d0d0d;
+    margin: 30px;
+}
+
+/* Flexbox styling for rows and columns */
+.row1, .row2 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #c99ad9;
+    padding: 10px;
+    border-radius: 1em;
+    margin: 30px;
+}
+
+.col1, .col2, .col3, .col4 {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Margin adjustments for better spacing */
+.row1 {
+    margin-bottom: 30px;
+}
+
+.col4 {
+    margin-left: 30px;
+}

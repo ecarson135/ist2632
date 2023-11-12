@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liz Carson's Contact Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .col {
+            flex: 1;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .col img {
+            width: 15px;
+            height: 15px;
+            margin-right: 5px;
+        }
+
+        .form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin: 10px 0;
+        }
+
+        input,
+        textarea,
+        select {
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #008080;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html"> Home</a> |
+        <a href="contact.html"> Contact</a> |
+        <a href="skills.html..html">Skills</a>
+    </nav>
+
+    <div class="row">
+        <div class="col">
+            <h2>Contact Information</h2>
+            <p>Liz Carson<br>900 S Crouse Avenue<br>Syracuse, NY 13210</p>
+            <p>Email: <a href="mailto:ecarson@syr.edu">ecarson@syr.edu</a></p>
+            <p>
+                <a href="https://www.linkedin.com/in/elizabeth-carson-274a7a224/" target="_blank">
+                    <img src="../images/linkedin.jpeg" alt="LinkedIn Icon"> My LinkedIn Profile
+                </a>
+            </p>
+        </div>
+
+        <div class="col">
+            <h2>Contact Form</h2>
+            <form action="https://formspree.io/f/xzbljodd" method="post" class="form">
+                <label for="fullname">What's your name:</label>
+                <input type="text" id="fullname" name="Full Name">
+
+                <label for="jobopenings">Do you have any job openings?</label>
+                <textarea id="jobopenings" name="Job Openings" rows="3" cols="50"></textarea>
+
+                <label>Am I Cool?</label>
+                <input type="radio" id="coolYes" name="cool" value="Cool">
+                <label for="coolYes">Cool</label>
+                <input type="radio" id="coolNo" name="cool" value="Not Cool">
+                <label for="coolNo">Not Cool</label>
+
+                <input type="checkbox" id="contactFollowUp" name="Contact Follow-Up">
+                <label for="contactFollowUp">May we contact you for a follow-up?</label>
+
+                <label for="preferredContact">Preferred Method of Contact:</label>
+                <select id="preferredContact" name="Method of Contact">
+                    <option value="text">Text</option>
+                    <option value="call">Phone</option>
+                    <option value="email">Email</option>
+                </select>
+
+                <button type="submit">Submit Form</button>
+            </form>
+        </div>
+
+        <div class="col">
+            <h2>Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11664.220105053942!2d-76.14723058102538!3d43.04027372306655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f39f4537cd79%3A0x968a90aa98400698!2s900%20S%20Crouse%20Ave%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1694796568330!5m2!1sen!2sus"
+                width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</body>
+
+</html>
