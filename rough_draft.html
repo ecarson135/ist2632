@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@200&family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <title>Paws and Possibilities - Pet Adoption Agency</title>
+<style>
+body {
+    font-family: 'Gill Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #6a7dd4;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.pet-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1em;
+    margin: 1em;
+    width: 300px;
+    text-align: center;
+            background-color: #fff;
+}
+
+.pet-card img {
+            max-width: 100%;
+            height: 150px;
+            border-radius: 8px;
+        }
+
+.featured-pets {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.adopt img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #6a7dd4;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="adopt.html">Adopt/Foster</a></li>
+                <li><a href="news.html">News & Events</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+        <img src="../images/dog_cat_playing.jpeg" alt="Dog and Cat Playing">
+        <h1>Paws and Possibilities</h1>
+        <p>Meet your new furever friend today!</p>
+    </header>
+    <section>
+        <h2>Featured Pets of the Week!</h2>
+        <div class="featured-pets">
+            <div class="pet-card">
+                <img src="../images/dog_1.jpg" alt="Dog 1">
+                <h3>Buddy, 3</h3>
+                <p>Friendly and playful, great with children and large families. </p>
+            </div>
+    
+            <div class="pet-card">
+                <img src="../images/cat_1.jpg" alt="Cat 1">
+                <h3>Mittens, 7</h3>
+                <p>Breed: Cat</p>
+                <p>Sweet and cuddly, the perfect cat for low energy, small families</p>
+            </div>
+            <div class="pet-card">
+                <img src="../images/dog_2.jpg" alt="Dog 2">
+                <h3>Joey, 10</h3>
+                <p>Breed: Dog</p>
+                <p>Great with other dogs, perfect for an active lifestyle, very kind and loyal.</p>
+            </div>
+            <div class="pet-card">
+                <img src="../images/cat_2.jpg" alt="Cat 2">
+                <h3>Oliver, 5</h3>
+                <p>Breed: Cat</p>
+                <p>Small and sweet, great for families with small children.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Paws and Possibilities</p>
+    </footer>
+</body>
+</html>

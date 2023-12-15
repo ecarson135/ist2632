@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Adopt/Foster</title>
+    <style>
+        body {
+            font-family: 'Gill Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            min-height: 100%;
+        }
+
+        header {
+            background-color: #6a7dd4;
+            color: white;
+            text-align: center;
+            padding: 1px;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+            padding: 1px;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        main {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            flex-grow: 1;
+        }
+
+        .pet-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            width: 300px;
+            text-align: justify;
+            background-color: #fff;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .pet-card img {
+            max-width: 100%;
+            height: 150px;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+
+        .featured-pets {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        h2 {
+            display: flex;
+            justify-content: center;
+            color: #0b1542;
+        }
+
+        p {
+            display: flex;
+            justify-content: center;
+            color: #0b1542;
+        }
+
+        footer {
+            background-color: #6a7dd4;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Interested in Adopting or Fostering?</h1>
+        <p>Well, you've come to the right place.</p>
+        <nav>
+            <ul>
+                <li><a href="pindex.html">Home</a></li>
+                <li><a href="adopt.html">Adopt/Foster</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="news.html">News & Events</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Adopt/Foster a Pet</h2>
+            <p>Explore our lovely pets available for adoption or fostering this week.</p>
+
+            <div class="featured-pets">
+                <div class="pet-card">
+                    <img src="../images/cat3.jpeg" alt="Cat 3">
+                    <h3>Buddy, 3</h3>
+                    <p>Description: With a heart as warm as his fur, Buddy is the epitome of a cuddly companion. At 3 years old, he has perfected the art of being both sweet and affectionate. Whether curled up on your lap or playing with his favorite toys, Buddy brings joy and comfort to any individual seeking a furry friend to share quiet moments and affectionate cuddles.</p>
+                    <a href="../images/adoption_form.jpeg"><button>Adopt</button></a>
+                </div>
+                <div class="pet-card">
+                    <img src="../images/cat4.jpeg" alt="Cat 4">
+                    <h3>Angela, 5</h3>
+                    <p>Description: Angela, at 5 years old, is a charismatic and playful feline friend with a heart full of love. Her friendly and sociable nature makes her an instant hit with children and large families alike. Angela enjoys interactive play and will happily join in on family activities. For those looking for a charming and entertaining addition to their home, Angela is the perfect choice.</p>
+                    <a href="../images/adoption_form.jpeg"><button>Adopt</button></a>
+            </div>
+            <div class="pet-card">
+                    <img src="../images/dog3.jpeg" alt="Dog 3">
+                    <h3>Pete, 2</h3>
+                    <p>Description: Energetic and adventurous, Pete is the perfect companion for an active lifestyle. Whether it's a game of fetch or a long walk, Pete is always up for some fun. His enthusiasm and friendly nature make him an ideal match for families with an adventurous spirit.</p>
+                    <a href="../images/adoption_form.jpeg"><button>Adopt</button></a>
+            </div>
+            <div class="pet-card">
+                    <img src="../images/dog4.jpeg" alt="Dog 4">
+                    <h3>Camille, 8</h3>
+                    <p>Description: Calm and wise, Camille brings a sense of tranquility to any home. With a gentle demeanor and a love for lounging, she's an excellent choice for a laid-back family seeking a loving companion. Camille's maturity and adaptability make her a wonderful addition to a relaxed household.</p>
+                   <a href="../images/adoption_form.jpeg"><button>Adopt</button></a>
+            </div>
+            <div class="pet-card">
+                    <img src="../images/cat5.jpeg" alt="Cat 5">
+                    <h3>Meredith, 3</h3>
+                    <p>Description: Playful and mischievous, Meredith is a bundle of joy who loves to explore and play. Her curiosity knows no bounds, and she delights in interactive toys and climbing. Meredith's affectionate nature makes her an excellent match for a family that enjoys active and engaging interactions.</p>
+                    <a href="../images/adoption_form.jpeg"><button>Adopt</button></a>
+            </div>
+            <div class="pet-card">
+                    <img src="../images/dog5.jpeg" alt="Dog 5">
+                    <h3>Kevin, 6</h3>
+                    <p>Description: Affectionate and loyal, Kevin is a true family dog. With a gentle disposition and a strong bond with his human companions, Kevin thrives on love and attention. His playful spirit and friendly nature make him an excellent choice for families looking for a devoted and loving furry friend.</p>
+                    <a href="../images/adoption_form.jpeg"><button>Adopt</button></a>
+            </div>
+            <div class="pet-card">
+                    <img src="../images/cat6.jpeg" alt="Cat 6">
+                    <h3>Jeff, 5</h3>
+                    <p>Description: Sociable and charming, Jeff is a people-oriented cat who loves to be the center of attention. Whether it's cuddling on the couch or entertaining with playful antics, Jeff is always ready to bring joy to his human friends. His friendly personality makes him an ideal companion for those seeking a social and engaging feline.</p>
+                    <a href="../images/adoption_form.jpeg"><button>Adopt</button></a>
+            </div>
+            <div class="pet-card">
+                    <img src="../images/dog6.jpeg" alt="Dog 6">
+                    <h3>Lily, 4</h3>
+                    <p>Description: Active and outgoing, Lily is a bundle of energy ready to join any outdoor adventure. Whether it's a game of fetch or a hiking trip, Lily's enthusiasm for life is contagious. Her friendly and outgoing nature makes her a perfect match for an active family seeking a furry companion for outdoor activities.</p>
+                    <a href="../images/adoption_form.jpeg"><button>Adopt</button></a>
+                </div>
+                <div class="pet-card">
+                    <img src="../images/dog7.jpeg" alt="Dog 7">
+                    <h3>Sammy, 10</h3>
+                    <p>Description: Wise and gentle, Sammy is a mature canine companion with a heart full of love. With a calm demeanor and a knack for comforting those around him, Sammy is the ideal choice for a household seeking a seasoned and well-behaved furry friend. His companionship brings a sense of warmth and tranquility to any home.</p>
+                    <a href="../images/adoption_form.jpeg"><button>Adopt</button></a>
+            </div>
+            <div class="pet-card">
+                    <img src="../images/cat7.jpeg" alt="Cat 7">
+                    <h3>Opal, 12</h3>
+                    <p>Description: Elegant and serene, Opal is a refined feline with a love for quiet moments and gentle companionship. Her calm and composed demeanor makes her an excellent choice for a tranquil home environment. Opal's mature and graceful presence adds a touch of sophistication to any household seeking a serene and loving cat.</p>
+                    <a href="../images/adoption_form.jpeg"><button>Adopt</button></a>
+            </div>
+            <div class="pet-card">
+                <img src="../images/dog8.jpeg" alt="Dog 8">
+                <h3>Henry, 3</h3>
+                <p>Description:  A charming canine companion full of boundless energy and enthusiasm. At 3 years old, Henry is the perfect mix of playfulness and loyalty. Whether it's a game of fetch or a long stroll in the park, Henry is always ready for an adventure. If you're looking for a spirited and affectionate furry friend to join your active lifestyle, Henry is the ideal choice.</p>
+                <a href="../images/adoption_form.jpeg"><button>Adopt</button></a>
+            </div>
+            <div class="pet-card">
+                <img src="../images/cat8.jpeg" alt="Cat 8">
+                <h3>Lulu, 1</h3>
+                <p>Description: Meet Lulu, a playful and curious feline friend at the tender age of 1. With her boundless energy and inquisitive nature, Lulu is always ready for a game of chase or to explore new nooks and crannies. This lively and spirited companion is perfect for those seeking a dynamic addition to their home, filled with laughter and joy.</p>
+                <a href="../images/adoption_form.jpeg"><button>Adopt</button></a>
+            </div>
+        </section>
+        <p><a href="adoption_form.html">Adoption Form</a></p>
+    </main>
+    <footer>
+        <p>&copy; 2023 Paws and Possibilities <span>&#x1F43E;</span></p>
+    </footer>
+    <script>
+        function toggleNav() {
+            var nav = document.querySelector('nav ul');
+            nav.style.display = (nav.style.display === 'none' || nav.style.display === '') ? 'flex' : 'none';
+        }
+    </script>
+</body>
+</html>
